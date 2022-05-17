@@ -1,11 +1,9 @@
-## Manipulating and Animating Canvas
+## Snake Game
 
-#### check it out [**Here**](https://shbairali.github.io/Canvas-Animation/).
+#### check it out [**Here**](https://shbairali.github.io/Snake-Game/).
 
-### Project Description
-
-my first experience with the canvas world, main goal was to gain the gaming logic which leads me to understand how canvas and animation works and how it can be manipulated. it was full of joy and logic!
-
+#### Project Description
+First time with building games, a whole new experience which added a lot to my coding skills, experienced new totally different ways of dealing with code elements, coordinations, physics and following all actions in details simultaneously.
 
 #### Created By [Ali Shbair](https://github.com/ShbairAli).
 
