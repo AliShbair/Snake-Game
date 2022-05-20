@@ -27,7 +27,7 @@ window.onload = function () {
   placeFood();
   window.addEventListener("keyup", moveSnake);
   // it wont work unless event listener begins
-  setInterval(update, 150);
+  setInterval(update, 250);
 };
 
 //! ================= MOVE SNAKE FUNCTION =================
@@ -94,12 +94,14 @@ function update() {
   ) {
     gameOver = true;
     alert("Game Over");
+    location.reload();
   }
   // 2- head touching its body elements
   for (let i = 0; i < snakeBody.length; i++) {
     if (snakeX == snakeBody[i][0] && snakeY == snakeBody[i][1]) {
       gameOver = true;
       alert("Game Over");
+      location.reload();
     }
   }
 }
